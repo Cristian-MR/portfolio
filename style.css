@@ -150,4 +150,9 @@ section#contato {
   nav {
     display: none;
   }
+
+  section#contato {
+    bottom: 0;
+    position: relative;
+}
 }
