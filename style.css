@@ -106,12 +106,24 @@ a {
 
 ul.d-flex.social-media {
     padding-left: 0;
+    align-items: center;
 }
 
 li.text-xs {
     display: block;
     width: 30px;
-    margin-left: 15px;
+    margin: 8px;
+}
+
+img.foto-perfil {
+    border-radius: 10%;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+section#contato {
+    bottom: 0;
+    position: fixed;
 }
 
 /* Versão mobile */
