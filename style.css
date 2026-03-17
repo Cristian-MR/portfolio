@@ -103,3 +103,39 @@ a {
   color: #38bdf8;
   text-decoration: none;
 }
+
+ul.d-flex.social-media {
+    padding-left: 0;
+}
+
+li.text-xs {
+    display: block;
+    width: 30px;
+    margin-left: 15px;
+}
+
+/* Versão mobile */
+@media (max-width: 768px) {
+  .layout {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-bottom: 0;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .contato {
+    margin-bottom: 0px;
+  }
+
+  nav {
+    display: none;
+  }
+}
