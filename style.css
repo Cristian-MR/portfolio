@@ -107,6 +107,7 @@ a {
 ul.d-flex.social-media {
     padding-left: 0;
     align-items: center;
+    border: none;
 }
 
 li.text-xs {
